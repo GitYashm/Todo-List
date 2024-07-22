@@ -1,6 +1,7 @@
 import Addtask from "./Component/Addtask";
 import Todo from "./Component/Todo";
 import React, { useState } from "react";
+import "./index.css";
 export default function App() {
   const [listTodo, setListTodo] = useState([]);
   let addList = (inputText) => {

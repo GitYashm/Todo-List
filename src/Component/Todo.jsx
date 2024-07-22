@@ -5,7 +5,6 @@ const Todo = (props) => {
     <div className="listitem">
       <li className="list-item">
         {props.item}
-
         <i
           className="fa-solid fa-trash icon-delete"
           onClick={(e) => {
